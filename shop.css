@@ -1,0 +1,145 @@
+.product-img {
+    position: relative;
+    z-index: 22;
+    cursor: pointer;
+}
+
+.hover-img {
+    z-index: -22;
+    position: absolute;
+    left: 4%;
+    top: 2.5%;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.product-img:hover .hover-img {
+    opacity: 100%;
+}
+
+.product-content h3 {
+    font-family: 'GT Super Txt Trial';
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.product-content h6 {
+    color: #B5B35C;
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.wave-area {
+    margin-bottom: 48px;
+}
+
+.wave-area h5 {
+    color: #000000;
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-right: 64px;
+}
+
+.wave-area h6 {
+    color: #000000;
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.drop-down {
+    border-bottom: 2px solid #000000;
+    ;
+}
+
+.side-menu li {
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.side-menu a {
+    color: #B5B35C;
+    text-decoration: none;
+    font-family: 'GT Super Txt Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.side-menu p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.pagination {
+    margin-top: 68px;
+}
+
+.pagination p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    margin: 24px;
+    font-family: 'GT Super Txt Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.pagination-active {
+    background-color: #B5B35C;
+}
+
+.drop-down {
+    display: flex;
+}
+
+.mobile-filter {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.mobile-filter h6 {
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-right: 12px;
+}
+
+@media screen and (max-width:767px) {
+    .product-img img {
+        display: block;
+        margin: auto;
+    }
+
+    .drop-down {
+        display: none;
+    }
+}
+@media screen and (max-width:991px) and (min-width:767px) {
+    .wave-img{
+        width: 40%;
+    }
+    .wave-area h5 {
+        margin-right: 20px;
+    }
+}
