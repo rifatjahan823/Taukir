@@ -1,0 +1,91 @@
+.blog-area {
+    background-color: #F8F8F8;
+    padding: 120px 0;
+}
+.blog-title {
+    background-color: #F2E085;
+    padding: 100px 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.blog-title h4 {
+    color: black;
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+}
+
+.blog-card {
+    position: relative;
+    z-index: 3;
+    background-color: #F8F8F8;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.blog-top-img{
+    width: 100%;
+}
+.blog-card:hover {
+    box-shadow: 12px 14px 0px 1px #5E6B61;
+}
+.blog-badge {
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #F8F8F8;;
+    border: 2px solid #000000;
+    padding: 6px 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.blog-btn {
+    position: absolute;
+    bottom: 16px;
+    border-bottom: 2px solid #000000;
+}
+
+.blog-btn a {
+    color: #000000;
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.blog-content {
+    padding: 16px;
+}
+
+.blog-content h6 {
+    color: #000000;
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.blog-content h3 {
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.blog-content p {
+    color: #000000;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 38px;
+}
