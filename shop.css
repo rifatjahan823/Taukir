@@ -1,19 +1,33 @@
 .product-img {
     position: relative;
     z-index: 22;
-    cursor: pointer;;
+    cursor: pointer;
 }
-.single-shop-product{
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+
+.single-shop-product {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-.shop-column{
-    width: 311px;
-    height: 221px;
+
+.shop-banner {
+    background: #D77628;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding: 7px 0;
     margin-bottom: 40px;
 }
+.shop-breadcrumb img{
+    margin: 0px 14px;
+}
+.shop-breadcrumb {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .hover-img {
     z-index: -22;
     position: absolute;
@@ -46,7 +60,7 @@
 }
 
 .wave-area {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
 }
 
 .wave-area h5 {
@@ -54,7 +68,6 @@
     font-family: 'GT Super Txt Trial';
     font-weight: 700;
     font-size: 40px;
-    line-height: 60px;
     margin-right: 64px;
 }
 
@@ -63,7 +76,6 @@
     font-family: 'GT Super Txt Trial';
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
 }
 
 .drop-down {
@@ -73,7 +85,8 @@
 
 .side-menu li {
     list-style-type: none;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    padding: 0;
 }
 
 .side-menu a {
@@ -91,7 +104,8 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+    padding: 0;
 }
 
 .pagination {
@@ -136,20 +150,25 @@
 }
 
 @media screen and (max-width:767px) {
-    .product-img img {
-        display: block;
-        margin: auto;
-    }
-
     .drop-down {
         display: none;
     }
 }
+
 @media screen and (max-width:991px) and (min-width:767px) {
-    .wave-img{
+    .wave-img {
         width: 40%;
     }
+
     .wave-area h5 {
         margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1440px) {
+    .product-content h3 {
+        line-height: 22px;
+        font-size: 17px;
+
     }
 }
