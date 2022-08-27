@@ -24,7 +24,7 @@
 .shop-breadcrumb img{
     margin: 0px 14px;
 }
-.shop-breadcrumb {
+.shop-breadcrumb a{
     font-family: 'Jost';
     font-weight: 400;
     font-size: 16px;

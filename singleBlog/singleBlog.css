@@ -1,36 +1,41 @@
-.sigle-blog-hero {
-    background-image: url('../img/single-blog/single-blog-hero.svg');
-    height: 605px;
-    background-size: cover;
-    background-position: center;
-    border-bottom: 1px solid #000000;
+.sigle-blog-hero img{
+    width: 100%;
 }
-
 .sigle-content-area {
     background: #F8F8F8;
 }
-
 .single-content-container {
     width: 60%;
     margin: auto;
     padding: 64px 0;
 }
-
+.single-content img{
+    margin: 30px 0;
+}
 .single-content h6 {
     color: #000000;
     font-family: 'Jost';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 8px;
+    margin: 20px 0;
 }
 
+.single-content a{
+    text-decoration: none;
+    transition: 0.6s;
+    margin: 0px 4px;
+}
+.single-content a:hover{
+    text-decoration:underline;
+}
 .single-content h1 {
     color: #000000;
     font-family: 'GT Super Txt Trial';
     font-weight: 700;
     font-size: 56px;
     line-height: 84px;
+    margin: 20px 0;
 }
 
 .single-content p {
@@ -38,6 +43,16 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    margin: 20px 0;
+
+}
+.single-content div {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0;
+
 }
 
 .single-content h5 {
@@ -46,8 +61,9 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    margin-bottom: 24px;
+    margin: 20px 0;
 }
+
 
 .border-div {
     border-bottom: 1px solid #000000;

@@ -68,7 +68,11 @@
     line-height: 30px;
     margin-top: 48px;
 }
+.svg-mobile svg{
+    display: inline-block;
+    text-align: left;
 
+}
 @media screen and (max-width:991px) {
     .about-hero-area img {
         width: 100%;
