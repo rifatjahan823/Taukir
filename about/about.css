@@ -1,0 +1,77 @@
+.about-hero-area {
+    background-color: #BD6059;
+    padding: 104px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.about-hero-area h4 {
+    color: white;
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 83px;
+}
+
+.about-card-area {
+    background: #F2E085;
+    padding: 120px 0;
+}
+
+.about-card {
+    background: #F8F8F8;
+    border: 1px solid #000000;
+    border-radius: 90px;
+    padding: 72px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.about-card:hover{
+    box-shadow: 12px 14px 0px 1px #D77628;
+}
+.about-card p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.about-card li {
+    list-style: none;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.about-card a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B5B35C;
+    text-decoration: none;
+    text-align: center;
+}
+
+.about-card h6 {
+    color: #000000;
+    font-family: 'GT Super Txt Trial';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 48px;
+}
+@media screen and (max-width:991px){
+    .about-hero-area img{
+        width: 100%;
+    }
+    .about-hero-area h4{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:541px){
+
+    .about-hero-area h4{
+        font-size: 20px;
+    }
+}
