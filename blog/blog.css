@@ -7,7 +7,8 @@
 }
 .blog-title {
     background-color: #F2E085;
-    padding: 100px 0;
+    padding-top: 103px;
+    padding-bottom: 95px;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
 }
@@ -113,4 +114,18 @@
     .blog-card{
         margin: 24px;
     }
+}
+@media screen and (min-width:800px) and (max-width:1440px) {
+    .blog-content h3 {
+        font-size: 22px;
+        line-height: 33px;
+    
+      }
+}
+@media screen and (max-width:316px) {
+    .blog-content h3 {
+        font-size: 18px;
+        line-height: 33px;
+    
+      }
 }
