@@ -1,9 +1,19 @@
 .product-img {
     position: relative;
     z-index: 22;
-    cursor: pointer;
+    cursor: pointer;;
 }
-
+.single-shop-product{
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.shop-column{
+    width: 311px;
+    height: 221px;
+    margin-bottom: 40px;
+}
 .hover-img {
     z-index: -22;
     position: absolute;
